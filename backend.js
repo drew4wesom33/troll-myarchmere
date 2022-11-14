@@ -5,7 +5,7 @@ const userList = [];
 
 function addUser() {
     const user = [{userEmail:document.getElementById('emailForm'), userPassword:document.getElementById('passwordForm')}]
-    userList.append(user);
+    userList.push(user);
 }
 
 document.getElementById('signInButton').addEventListener('click', addUser());
