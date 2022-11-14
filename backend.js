@@ -8,7 +8,6 @@ function addUser() {
     userList.append(user);
 }
 
-document.getElementById('signInButton').addEventListener('click', addUser(), function(){
-    console.log(user);
-});
+document.getElementById('signInButton').addEventListener('click', addUser());
 
+console.log('hello');
